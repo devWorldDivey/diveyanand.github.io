@@ -5,7 +5,7 @@
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
-body {font-family: 'Ek Mukta', sans-serif;color: #666;background: #EBEBEB;font-size: 16px;line-height: 1.6em;font-weight: 400;}
+body {font-family: 'Ek Mukta', sans-serif;color: #020202;background: #e2d7d7;font-size: 16px;line-height: 1.6em;font-weight: 400;}
 html, body {width:100%; padding:0; margin:0;}
 
 ::-moz-selection{background:red;color:#fff;text-shadow:none}
@@ -13,8 +13,8 @@ html, body {width:100%; padding:0; margin:0;}
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
-html { -webkit-text-size-adjust: none;}
-.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+html {-webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe {width: 100%;height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 h1 {font-size: 38px;}
@@ -67,7 +67,7 @@ header{text-align: center;}
 .top-social{font-size: 20px; text-align: center;}
 .top-social > li > a{padding: 7px 0 0 0;}
  ul.top-social  li{height: 38px; width: 38px; margin-right: 5px;}
- ul.top-social a i{color: #fff;line-height: 1.9;height: 38px; width: 38px;border-radius: 50%;background-color: #252628;}
+ ul.top-social a i{color: #2c1b1b;line-height: 1.9;height: 38px; width: 38px;border-radius: 50%;background-color: #252628;}
  ul.top-social a i:hover{background-color:#555;}
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Container--------------------------------- */
