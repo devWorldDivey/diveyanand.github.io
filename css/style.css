@@ -61,14 +61,15 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ---------------------------------------------------------------------------- */
 /* --------------------------------Header + Nav-------------------------------- */
 /* ---------------------------------------------------------------------------- */
+
 header{text-align: center;}
 .logo{margin: 40px 0;}
 
 .top-social{font-size: 20px; text-align: center;}
 .top-social > li > a{padding: 7px 0 0 0;}
  ul.top-social  li{height: 38px; width: 38px; margin-right: 5px;}
- ul.top-social a i{color: #2c1b1b;line-height: 1.9;height: 38px; width: 38px;border-radius: 50%;background-color: #252628;}
- ul.top-social a i:hover{background-color:#555;}
+ ul.top-social a i{color: #f3f1f1;line-height: 1.9;height: 38px; width: 38px;border-radius: 50%;background-color: #212225;}
+ ul.top-social a i:hover{background-color:#4d3e3e;}
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Container--------------------------------- */
 /* ---------------------------------------------------------------------------- */
