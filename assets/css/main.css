@@ -1280,15 +1280,10 @@ h6 {
 /* Create three equal columns that floats next to each other */
 .column1{
   float: left;
-  
-  
   display:none; /* Hide columns by default */
-  
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
-
-  
 }
 
 /* Clear floats after rows */
@@ -1302,8 +1297,10 @@ h6 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: rgb(241, 40, 40);
   padding: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
   
 }
 
@@ -1319,18 +1316,23 @@ h6 {
   padding: 12px 16px;
   background-color: white;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
 }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: #056943;
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: #666;
-   color: white;
+  background-color: #27a776;
+   color: rgb(255, 255, 255);
 }
 
+.makecenter{
+  text-align: center;
+}
 /*-----------------------------------Filter End------------------
 ---------------------------------------------------------------*/
