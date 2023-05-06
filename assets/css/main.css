@@ -1275,82 +1275,61 @@ h6 {
 #Filter CSS Start
 ----------------------------------------------------------------*/
 
-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
+
+
+/* Create three equal columns that floats next to each other */
+.column1{
+  float: left;
+  
+  
+  display:none; /* Hide columns by default */
+  
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+  
 }
-.gallery-title
-{
-  font-size: 36px;
-  color: #42B32F;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 70px;
-}
-.gallery-title:after {
+
+/* Clear floats after rows */
+.row1:after {
   content: "";
-  position: absolute;
-  width: 7.5%;
-  left: 46.5%;
-  height: 45px;
-  border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-  font-size: 18px;
-  border: 1px solid #42B32F;
-  border-radius: 5px;
-  text-align: center;
-  color: #42B32F;
-  margin-bottom: 30px;
+  display: table;
+  clear: both;
+
 
 }
-.filter-button:hover
-{
-  font-size: 18px;
-  border: 1px solid #42B32F;
-  border-radius: 5px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #42B32F;
 
-}
-.filter-button.active
-{
-  background-color: #42B32F;
-  color: white;
-}
-.port-image
-{
-  width: 100%;
+/* Content */
+.content {
+  background-color: white;
+  padding: auto;
+  
 }
 
-.gallery_product
-{
-  margin-bottom: 30px;
--webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
 
-.block{
-  opacity: 0;
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
 }
 
-@-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
 }
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
 }
 
 /*-----------------------------------Filter End------------------
