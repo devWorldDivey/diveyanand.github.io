@@ -1286,6 +1286,10 @@ h6 {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
+.contentpara{
+  text-align: center;
+}
+
 /* Clear floats after rows */
 .row1:after {
   content: "";
